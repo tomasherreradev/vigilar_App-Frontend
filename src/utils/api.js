@@ -2,7 +2,7 @@ import axios from 'axios';
 // import Config from 'react-native-config';
 
 export const api = axios.create({
-  baseURL: 'https://vigilar-app-backend.onrender.com',
+  baseURL: 'https://vigilarapp-backend-production.up.railway.app',
   timeout: 10000, 
   headers: { 
     'Content-Type': 'application/json',
